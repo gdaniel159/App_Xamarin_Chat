@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             xmlns:vm="clr-namespace:LunaSenatiConnection.ViewModel"
+             
+             x:Class="LunaSenatiConnection.Views.Login"
+             
+             BackgroundColor="#FFFFFF"
+             NavigationPage.HasNavigationBar="false">
+
+    <!-- Connect the viewmodel with views  -->
+    <ContentPage.BindingContext>
+        <vm:LoginViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="¡Bienvenid@ a la nueva app de senati para chats grupales, inicia sesión con tu correo institucional!📱"
+                   TextColor="#007AFF"
+                   FontSize="15"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   Margin="60,40,60,0"/>
+
+            <Image Source="registration.png"
+                   VerticalOptions="CenterAndExpand"
+                   HeightRequest="110"
+                   Margin="0,40,0,-50"/>
+            
+            <StackLayout VerticalOptions="EndAndExpand" Spacing="18">
+                <Entry Placeholder="   Email"
+                       Keyboard="Text"
+                       Text="{Binding Email}"
+                       TextColor="#007AFF"
+                       PlaceholderColor="#8F8F8F"
+                       FontSize="15"
+                       Margin="30,0"
+                       x:Name="EntryEmail">
+                        
+                </Entry>
+
+                <Entry IsPassword="True"
+                       Text="{Binding Password}"
+                       TextColor="#007AFF"
+                       Placeholder="   Password"
+                       PlaceholderColor="#8F8F8F"
+                       FontSize="15"
+                       Margin="30,0"
+                       x:Name="EntryPassword"/>
+
+                <Button Background="#007AFF"
+                        Margin="30,40,30,10"
+                        VerticalOptions="EndAndExpand"
+                        Text="Iniciar Sesión"
+                        TextColor="White"
+                        Command="{Binding LoginCommand}"
+                        CornerRadius="13">
+                </Button>
+            </StackLayout>
+            
+
+            <Label Text="Senati Connection"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#007AFF"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="EndAndExpand"
+                   Margin="0,0,0,30"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

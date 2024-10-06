@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZWkTIYgpBoQ9rGlMHom46LKZSBTfVnQydClB2c3LLUss3QczoB3j+XHBFC/rAzLE1hAeuCwOJ9U4i4+JFR7iVQ==",
+  "success": true,
+  "projectFilePath": "D:\\VI SEMESTRE\\DESARROLLO MOVIL\\Movil\\Luna-Senati-Connection\\Luna-Senati-Connection\\LunaSenatiConnection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Academico\\.nuget\\packages\\formstoolkit\\2.0.1\\formstoolkit.2.0.1.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\socketioclient\\2.0.0\\socketioclient.2.0.0.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\syncfusion.licensing\\27.1.50\\syncfusion.licensing.27.1.50.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\syncfusion.xamarin.core\\27.1.50\\syncfusion.xamarin.core.27.1.50.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\syncfusion.xamarin.datasource\\27.1.50\\syncfusion.xamarin.datasource.27.1.50.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\27.1.50\\syncfusion.xamarin.gridcommon.27.1.50.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\syncfusion.xamarin.sfautocomplete\\27.1.50\\syncfusion.xamarin.sfautocomplete.27.1.50.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\syncfusion.xamarin.sflistview\\27.1.50\\syncfusion.xamarin.sflistview.27.1.50.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\system.net.websockets.client.managed\\1.0.22\\system.net.websockets.client.managed.1.0.22.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Academico\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
